@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todotool"
+version = "0.1.0"
+description = "Todo + 1on1 CLI POC"
+requires-python = ">=3.9"
+dependencies = [
+  "typer>=0.12,<1.0"
+]
+
+[project.scripts]
+item = "todotool.cli:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
