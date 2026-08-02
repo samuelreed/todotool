@@ -27,3 +27,6 @@ item search roadmap --closed --archived
 - `add --type 1on1` requires `--report`.
 
 Data is stored at `~/.todotool/items.db`.
+
+## Notes
+This repo is a test of using VS Code agent mode. I wanted to see what the experience was like. I had generally minimal correction on that agents as they ran; hopefully nothing embarssing is being checked in that I missed during review. I produced only IMPLEMENTATION_PLAN.md. This first checkin is 100% agent produced.
